@@ -1,0 +1,13 @@
+* {
+
+}
+#navleft #navright {
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  position: absolute;
+  margin: 7px 0 0 10px;
+  display: block;
+}
+#navleft {
+  
+}
