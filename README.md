@@ -1,9 +1,7 @@
 
 This is my first 'real' assignment on the Odin project taking off one of the several training wheels :).   
 
-This project contains an HTML and CSS build of the Google home and search pages.      
-
-Folders split the easy and difficult versions of the project.
+This project contains an HTML and CSS build of the Google home page.    
 
 I've commented throughout the code for others to see what I did and why as I played with a few different styles as I went to test and learn new things. I mixed up what Googles documentation used and my own approach in chunks, i.e. a top navbar done in a list and one done as spans. There's advantages and disadvantages to both!
 
