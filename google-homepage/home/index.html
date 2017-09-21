@@ -3,27 +3,25 @@
   <head>
     <title>Google</title>
     <link href ="style.css" type="text/css" rel="stylesheet">
+    <!-- Pull material icon font for icon links on header -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
   </head>
   <body>
-
+    <!-- Top horizontal navbar -->
     <header>
-      <span id="hnl">
-        <a class = "hh">About</a>
-        <a class = "hh">Store</a>
-      </span>
-      <span id="hnr">
-        <a class = "hh">Gmail</a>
-        <a class = "hh">Images</a>
-        <span>
-          <a class = "hhmi">apps</a>
-          <a class = "hhmi">notifications</a>
-          <a class = "hhmi">account_circle</a>
-        </span>
-      </span>
+      <ul>
+        <li style="float:left"><a href="#" name="About">About</a></li>
+        <li style="float:left"><a href="#" name="Store">Store</a></li>
+        <li style="float:right"><a href="#" name="Account" class= "material-icons">account_circle</a></li>
+        <li style="float:right"><a href="#" name="Notifications" class= "material-icons">notifications</a></li>
+        <li style="float:right"><a href="#" name="Apps" class= "material-icons">apps</a></li>
+        <li style="float:right"><a href="#" name="Images">Images</a></li>
+        <li style="float:right"><a href="#" name="Gmail">Gmail</a></li>
+      </ul>
     </header>
 
+    <!-- Logo, search text, and search buttons -->
     <center>
     <div class = "logo">
       <img src = "https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
@@ -42,23 +40,20 @@
         </input>
         </div>
       </form>
-</center>
+    </center>
 
-  <footer>
-    <span id = "fsl">
-      <a href="#" class = "ff">Advertising</a>
-      <a href="#" class = "ff">Business</a>
-    </span>
-
-    <span id = "fsr">
-      <a href="#" class = "ff">Privacy</a>
-      <a href="#" class = "ff">Terms</a>
-      <a href="#" class = "ff">Settings</a>
-      <a href="#" class = "ff">Use Google.com</a>
-    </span>
-
-  </footer>
-
+    <!-- Bottom horizontal navbar -->
+    <footer>
+      <span id = "fsl">
+        <a href="#" class = "ff">Advertising</a>
+        <a href="#" class = "ff">Business</a>
+      </span>
+      <span id = "fsr">
+        <a href="#" class = "ff">Privacy</a>
+        <a href="#" class = "ff">Terms</a>
+        <a href="#" class = "ff">Settings</a>
+        <a href="#" class = "ff">Use Google.com</a>
+      </span>
+    </footer>
   </body>
-
 </html>

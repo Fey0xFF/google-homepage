@@ -1,84 +1,43 @@
-
+/* reset styles */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* set class for google material icons font */
 .material-icons {
   font-family: 'Material Icons';
-  /*font-size: 26px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: rtl;
-  -webkit-font-feature-settings: 'liga';
-  -webkit-font-smoothing: antialiased;
-  float: right;*/
+  padding-top: 8px;
 }
 
-header {
-  border-top: 1px solid #e4e4e4;
+/* top navbar classes */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li a {
+  color: #666;
+  text-decoration: none;
+  white-space: nowrap;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 |important;
+  font-family: arial,sans-serif;
+  display: inline-block;
+  font-size: small;
   line-height: 40px;
-  min-width: 980px;
-  top:0;
-  left: 0;
-  position: fixed;
-  right: 0;
-  display: block;
-  height: auto;
   visibility: visible;
-  width: 100%;
-  color: #222;
-  text-align: center;
 }
 
-#hnl {
-  margin-right:30px;
-  float: left;
-  white-space: nowrap;
-}
-#hnr {
-  margin-right:30px;
-  float: right;
-  white-space: nowrap;
-}
-
-.hh {
-color: #666;
-text-decoration: none;
-white-space: nowrap;
-padding-left: 27px;
-margin: 0 |important;
-font-family: arial,sans-serif;
-display: inline-block;
-font-size: small;
-line-height: 40px;
-visibility: visible
-}
-
-.hhmi {
-color: #666;
-text-decoration: none;
-white-space: nowrap;
-padding-left: 27px;
-margin: 0 |important;
-font-family: 'Material Icons';
-display: inline-block;
-font-size: 22px;
-line-height: 40px;
-visibility: visible
-}
-
-
-
+/* center class for centering things :) */
 center {
   display: block;
   text-align: -webkit-center;
 }
 
+/* logo classes */
 .logo {
   margin-top:200px;
   padding-bottom:20px;
@@ -92,6 +51,8 @@ center {
   margin-top: 75px;
   margin-left: -55px;
 }
+
+/* search text and button function classes */
 .search {
   width: 403px;
   height: 39px;
@@ -111,7 +72,8 @@ center {
 .btn {
   height: 34px;
   padding: 0 16px;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #f1f1f1;
+  background-color: #f2f2f2;
   border-radius: 2px;
   color: #757575;
   font-family: arial, sans-serif;
@@ -133,10 +95,14 @@ center {
   text-indent: 0px;
   text-shadow: none;
   display: inline-block;
-
+}
+.btn:hover{
+  color:#000;
+  border: 1px solid lightgrey;
 }
 
 
+/* bottom navbar classes and ids (different style than above to test self) */
 footer {
   background: #f2f2f2;
   border-top: 1px solid #e4e4e4;
@@ -152,20 +118,18 @@ footer {
   width: 100%;
   color: #222;
   font-family: arial, sans-serif;
+  overflow: hidden;
 }
-
 #fsr {
   margin-right:30px;
   float: right;
   white-space: nowrap;
 }
-
 #fsl {
   margin-right:30px;
   float: left;
   white-space: nowrap;
 }
-
 .ff {
   color: #666;
   text-decoration: none;
