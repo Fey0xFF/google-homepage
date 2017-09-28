@@ -1,5 +1,5 @@
 
-This is my first 'real' assignment on the Odin project taking off one of the several training wheels :).   
+This is my first 'real' assignment on The Odin Project taking off one of the several training wheels :).   
 
 This project contains an HTML and CSS build of the Google home page.    
 
